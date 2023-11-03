@@ -11,5 +11,6 @@ st.set_page_config(page_title="I wanna travel the World", page_icon="🌍", layo
 st.title("I wanna travel the World 🌍✈️")
 st.subheader("Mind traveling to any place in the earth you want!")
 
+st.image("./images/traveler.jfif", caption="AI generated image of a traveler!", width=300)
 
-#components.html(html=stripe_js, height=300)
+#components.html(html=stripe_js, height=300 )
