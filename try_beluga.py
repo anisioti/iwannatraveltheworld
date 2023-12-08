@@ -4,6 +4,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 pipe = pipeline("text-generation", model="stabilityai/StableBeluga-7B")
 tokenizer = AutoTokenizer.from_pretrained("stabilityai/StableBeluga2", use_fast=False)
 
+
 tokenizer = AutoTokenizer.from_pretrained("stabilityai/StableBeluga-7B")
 model = AutoModelForCausalLM.from_pretrained("stabilityai/StableBeluga-7B")
 system_prompt = "### System:\nYou are Stable Beluga, an AI that follows instructions extremely well. Help as much as you can. Remember, be safe, and don't do anything illegal.\n\n"
