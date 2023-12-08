@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 #st.markdown("# I wanna travel the World🎈")
 #st.sidebar.markdown("# Main page 🎈")
-import boto3 
+#import boto3 
 
 
 st.set_page_config(page_title="I wanna travel the World", page_icon="🌍", layout="centered", initial_sidebar_state="collapsed")
