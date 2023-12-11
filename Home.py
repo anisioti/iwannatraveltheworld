@@ -15,5 +15,5 @@ st.image("./images/traveler.jfif", caption="AI generated image of a traveler!", 
 
 #client = boto3.client('cognito-idp', region_name = st.secrets.region_name)
 
-st.markdown("Please login following the [link:](https://iwannatraveltheworld.auth.eu-north-1.amazoncognito.com/login?client_id=cnt1bccht18i5tmtu9p091154&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fiwannatraveltheworld.streamlit.app%2FChoose_destination%25F0%259F%2593%258D)")
+st.markdown("Please login following the [link:](https://iwannatraveltheworld.auth.eu-north-1.amazoncognito.com/login?client_id=cnt1bccht18i5tmtu9p091154&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fiwannatraveltheworld.streamlit.app%2FChoose_destination)")
 #components.html(html=stripe_js, height=300 )
